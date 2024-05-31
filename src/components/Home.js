@@ -11,7 +11,7 @@ import Tolkien from '../assets/tolkien.jpg'
 const Home = () => {
     return (
         <div>
-            <div className="container">
+            {/* <div className="container">
                 <div className="row">
                     <div className="col s4">
                         <div className="card">
@@ -100,7 +100,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             <div className="container">
@@ -128,15 +128,16 @@ const Home = () => {
                     <div className="col s4">
                         <div className="card indigo lighten-2">
                             <div className="card-content white-text">
-                                <span className="card-title">Ursula K. Le Guin</span>
+                                <span className="card-title">J.R.R. Tolkien</span>
                             </div>
                             <div className="card-action">
-                                <p><Link to="/leguin">Read about Ursula K. Le Guin</Link></p>
+                                <p><Link to="/tolkien">Read about J.R.R. Tolkien</Link></p>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col s4">
                         <div className="card indigo lighten-2">
                             <div className="card-content white-text">
@@ -160,14 +161,14 @@ const Home = () => {
                     <div className="col s4">
                         <div className="card indigo lighten-2">
                             <div className="card-content white-text">
-                                <span className="card-title">J.R.R. Tolkien</span>
+                                <span className="card-title">Ursula K. Le Guin</span>
                             </div>
                             <div className="card-action">
-                                <p><Link to="/tolkien">Read about J.R.R. Tolkien</Link></p>
+                                <p><Link to="/leguin">Read about Ursula K. Le Guin</Link></p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

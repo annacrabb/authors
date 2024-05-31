@@ -8,6 +8,7 @@ export default class LeGuin extends Component {
       <p>Here is what I like about this author</p>
       <p>Here is a fun fact this author</p>
       <p>Here is where I suggest you start with this author</p>
+      <p>Left Hand of Darkness</p>
     </div>     
     )
   }

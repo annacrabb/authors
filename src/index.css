@@ -17,3 +17,7 @@ img{
   /* width: 320px; */
   height:fit-content;
 }
+
+h6{
+  line-height: 25px;
+}
