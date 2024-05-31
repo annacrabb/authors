@@ -8,8 +8,7 @@ const Navbar = () => {
             <Link to='/' className="brand-logo">Anna's Favorite Authors</Link>
             <ul className="right">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/">Contact</Link></li>
-                <li><Link to="/">About</Link></li>
+                <li><a href="https://annacrabb.github.io/portfolio/#projects">More Projects</a></li>
             </ul>
         </div>
     </nav>

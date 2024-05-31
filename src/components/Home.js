@@ -11,6 +11,81 @@ import Tolkien from '../assets/tolkien.jpg'
 const Home = () => {
     return (
         <div>
+        <div className="container center">
+            <h4>Welcome!</h4>
+        </div>
+        <div className="container">
+            <h6>Each link below contains a few fun facts and some book recommendations for each author. </h6>
+            <hr />
+        </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col s4">
+                        <div className="card indigo lighten-1 hoverable">
+                            <div className="card-content white-text">
+                                <span className="card-title">Isaac Asimov</span>
+                            </div>
+                            <div className="card-action">
+                                <p><Link to="/asimov">Read about Isaac Asimov</Link></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col s4">
+                        <div className="card indigo lighten-1 hoverable">
+                            <div className="card-content white-text">
+                                <span className="card-title">Philip K. Dick</span>
+                            </div>
+                            <div className="card-action">
+                                <p><Link to="/dick">Read about Philip K. Dick</Link></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col s4">
+                        <div className="card indigo lighten-1 hoverable">
+                            <div className="card-content white-text">
+                                <span className="card-title">J.R.R. Tolkien</span>
+                            </div>
+                            <div className="card-action">
+                                <p><Link to="/tolkien">Read about J.R.R. Tolkien</Link></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                {/* <div className="row">
+                    <div className="col s4">
+                        <div className="card indigo lighten-2">
+                            <div className="card-content white-text">
+                                <span className="card-title">Douglas Adams</span>
+                            </div>
+                            <div className="card-action">
+                                <p><Link to="/adams">Read about Douglas Adams</Link></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col s4">
+                        <div className="card indigo lighten-2">
+                            <div className="card-content white-text">
+                                <span className="card-title">Sir Terry Pratchett</span>
+                            </div>
+                            <div className="card-action">
+                                <p><Link to="/pratchett">Read about Sir Terry Pratchett</Link></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col s4">
+                        <div className="card indigo lighten-2">
+                            <div className="card-content white-text">
+                                <span className="card-title">Ursula K. Le Guin</span>
+                            </div>
+                            <div className="card-action">
+                                <p><Link to="/leguin">Read about Ursula K. Le Guin</Link></p>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
+            </div>
+
             {/* <div className="container">
                 <div className="row">
                     <div className="col s4">
@@ -103,73 +178,7 @@ const Home = () => {
             </div> */}
 
 
-            <div className="container">
-                <div className="row">
-                    <div className="col s4">
-                        <div className="card indigo lighten-2">
-                            <div className="card-content white-text">
-                                <span className="card-title">Isaac Asimov</span>
-                            </div>
-                            <div className="card-action">
-                                <p><Link to="/asimov">Read about Isaac Asimov</Link></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s4">
-                        <div className="card indigo lighten-2">
-                            <div className="card-content white-text">
-                                <span className="card-title">Philip K. Dick</span>
-                            </div>
-                            <div className="card-action">
-                                <p><Link to="/dick">Read about Philip K. Dick</Link></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s4">
-                        <div className="card indigo lighten-2">
-                            <div className="card-content white-text">
-                                <span className="card-title">J.R.R. Tolkien</span>
-                            </div>
-                            <div className="card-action">
-                                <p><Link to="/tolkien">Read about J.R.R. Tolkien</Link></p>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-                {/* <div className="row">
-                    <div className="col s4">
-                        <div className="card indigo lighten-2">
-                            <div className="card-content white-text">
-                                <span className="card-title">Douglas Adams</span>
-                            </div>
-                            <div className="card-action">
-                                <p><Link to="/adams">Read about Douglas Adams</Link></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s4">
-                        <div className="card indigo lighten-2">
-                            <div className="card-content white-text">
-                                <span className="card-title">Sir Terry Pratchett</span>
-                            </div>
-                            <div className="card-action">
-                                <p><Link to="/pratchett">Read about Sir Terry Pratchett</Link></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s4">
-                        <div className="card indigo lighten-2">
-                            <div className="card-content white-text">
-                                <span className="card-title">Ursula K. Le Guin</span>
-                            </div>
-                            <div className="card-action">
-                                <p><Link to="/leguin">Read about Ursula K. Le Guin</Link></p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-            </div>
         </div>
     )
 }
