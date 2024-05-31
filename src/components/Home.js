@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Adams from '../assets/adams.jpg'
-import Asimov from '../assets/asimov.jpg'
-import Dick from '../assets/dick.jpg'
-import LeGuin from '../assets/leguin.jpg'
-import Pratchett from '../assets/pratchett.jpg'
-import Tolkien from '../assets/tolkien.jpg'
+// import Adams from '../assets/adams.jpg'
+// import Asimov from '../assets/asimov.jpg'
+// import Dick from '../assets/dick.jpg'
+// import LeGuin from '../assets/leguin.jpg'
+// import Pratchett from '../assets/pratchett.jpg'
+// import Tolkien from '../assets/tolkien.jpg'
 
 const Home = () => {
     return (
